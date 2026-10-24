@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频文案与镜头导演"
+  short_description: "把主题、整稿和好句变成可直接拍摄的文案、表演时间线与剪辑交接包"
+  default_prompt: "用 $video-script-director 帮我把主题或文案整理成完整口播稿、逐段拍摄时间线、配图和剪辑交接包。"

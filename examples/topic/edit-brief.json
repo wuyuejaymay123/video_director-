@@ -1,0 +1,436 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "title": "把说明书讲成一句人话",
+    "topic": "怎么把知识讲得让人愿意听",
+    "angle": "把一个抽象句改成具体场景，示范理解顺序",
+    "audience": "刚开始拍知识口播、担心自己像念稿的人",
+    "platform": "抖音/小红书",
+    "target_duration_s": 60,
+    "aspect_ratio": "9:16",
+    "mode": "topic",
+    "assumptions": [
+      "这是通用 Skill 的主题成稿示例，配图仅做方案，没有调用生成工具。",
+      "暂无实录，全部秒数为排练预估。"
+    ]
+  },
+  "timing": {
+    "basis": "estimated",
+    "rate_cps": 4.5,
+    "source_media": null,
+    "transcript_path": null,
+    "note": "按逐句长度、明确停顿与对比阅读停留估算；未做真实朗读测量，拍后需按音轨重新对齐。"
+  },
+  "direction": {
+    "promise": "看完能把自己稿子里一个抽象句改成具体场景",
+    "emotion_arc": "先认出困境→故意念一次书面句→换成聊天口吻→接住专业性的疑虑→示范→平静邀请实践",
+    "persona": "像坐在对面给朋友演示，不像讲销售课",
+    "visual_style": "真人中近景为主，书面句与具体场景用同位置前后替换；色彩由实际项目继承",
+    "audio_style": "人声清楚自然；演示书面句时主要靠表演，不强行变声；核心例子不加重音效",
+    "cover_title": "别让观众替你翻译",
+    "revision_notes": [
+      "从大主题收窄成一次可照着做的句子改写。",
+      "自问自答负责接疑虑，不为凑方法堆反问。",
+      "配图仅作原创示意，文字由剪辑排版，避免生成乱码。"
+    ]
+  },
+  "fragments": [],
+  "claims": [],
+  "assets": [
+    {
+      "id": "A01",
+      "kind": "generated_image",
+      "status": "planned",
+      "purpose": "呈现反复改稿但面对摄像头仍紧绷的具体处境",
+      "path": null,
+      "source": "原创概念示意，不是真实人物经历或产品界面",
+      "prompt": "竖屏9:16，简洁温暖的纸艺插画。桌上有三份改过的稿纸，纸面只有不可辨识的抽象线条；旁边一台朝向座位的相机，空椅子稍向后退，表现准备充分却临场紧张。主体位于中间60%区域，上下各保留宽阔干净空间，暖白和低饱和蓝灰，清晰轮廓，少量柔和阴影，无人物，无品牌，无文字。",
+      "negative": "无可读文字、无真实产品界面、无水印、无密集装饰",
+      "aspect_ratio": "9:16",
+      "placement": "中段S06作全屏插图，上下字幕安全区保持干净，不默认添加人物小窗",
+      "fallback": "真人把三张稿纸依次叠上，再抬眼看镜头；无需额外素材",
+      "alt": "三份稿纸、一台相机和向后退的空椅子，示意改稿后仍怕开拍。"
+    }
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "start_s": 0,
+      "end_s": 5,
+      "speech": "知识讲得很对，观众却听不下去。试着改这一句。",
+      "purpose": "承认困境并承诺立即演示",
+      "techniques": [
+        "共鸣",
+        "具体承诺"
+      ],
+      "performance": {
+        "emotion": "理解、平静",
+        "intensity": 2,
+        "pace": "开头稳，最后一句稍快",
+        "emphasis": [
+          "听不下去"
+        ],
+        "pauses": [
+          {
+            "after": "很对，",
+            "seconds": 0.25
+          }
+        ],
+        "face": "看镜头，微微皱眉",
+        "gesture": "手指示意一句话"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "胸口以上中近景",
+        "action": "机位固定"
+      },
+      "visual": {
+        "description": "保持露脸，关键词轻强调",
+        "asset_ids": []
+      },
+      "edits": [],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S02",
+      "start_s": 5,
+      "end_s": 11,
+      "speech": "原来你说：优化信息传递路径，降低用户认知成本。",
+      "purpose": "让书面表达的问题被实际听见",
+      "techniques": [
+        "前后对比"
+      ],
+      "performance": {
+        "emotion": "有意端着的书面示范",
+        "intensity": 2,
+        "pace": "读例句时略平，别拖成搞笑腔",
+        "emphasis": [
+          "认知成本"
+        ],
+        "pauses": [
+          {
+            "after": "你说：",
+            "seconds": 0.3
+          }
+        ],
+        "face": "短暂看一眼稿纸，再回镜头",
+        "gesture": "持一张纸，示范念稿"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "中近景",
+        "action": "机位固定"
+      },
+      "visual": {
+        "description": "同位置显示原句，仅两行，留住够阅读的时间",
+        "asset_ids": []
+      },
+      "edits": [
+        {
+          "id": "E02",
+          "anchor": "优化信息传递路径",
+          "occurrence": 1,
+          "offset_s": 2,
+          "duration_s": 3.5,
+          "priority": "optional",
+          "intent": "让书面表达的问题被实际听见",
+          "visual": "在原位置显示两行书面句，稳定停留，不逐字飞入",
+          "sound": "无",
+          "voice": "靠表演体现念稿，保留原声"
+        }
+      ],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S03",
+      "start_s": 11,
+      "end_s": 19,
+      "speech": "换成：你说完，观众还得在脑子里翻译一遍，那就再改简单点。",
+      "purpose": "把抽象词换成可体验的理解动作",
+      "techniques": [
+        "口语化",
+        "体验替代描述"
+      ],
+      "performance": {
+        "emotion": "松弛、像对朋友说",
+        "intensity": 3,
+        "pace": "换成后自然聊天，翻译一遍稍慢",
+        "emphasis": [
+          "翻译一遍"
+        ],
+        "pauses": [
+          {
+            "after": "换成：",
+            "seconds": 0.35
+          }
+        ],
+        "face": "轻抬眉，眼神从纸回到镜头",
+        "gesture": "把纸轻放下，手指点一下太阳穴后收回"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "中近景",
+        "action": "后期轻切近一点，无需实际移动相机"
+      },
+      "visual": {
+        "description": "前一句书面字幕在同一位置被聊天句替换",
+        "asset_ids": []
+      },
+      "edits": [
+        {
+          "id": "E03",
+          "anchor": "翻译一遍",
+          "occurrence": 1,
+          "offset_s": 3.7,
+          "duration_s": 1.6,
+          "priority": "must",
+          "intent": "把抽象词换成可体验的理解动作",
+          "visual": "字幕只将翻译一遍四字放大约一成，停稳后恢复正常；不震屏",
+          "sound": "可用很轻的纸张翻面声，关键字处不加爆音",
+          "voice": "保持原声"
+        }
+      ],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S04",
+      "start_s": 19,
+      "end_s": 25,
+      "speech": "可是不说专业词，会不会显得不专业？",
+      "purpose": "提前接住观众的合理疑虑",
+      "techniques": [
+        "预设反驳",
+        "自问"
+      ],
+      "performance": {
+        "emotion": "真诚疑问",
+        "intensity": 2,
+        "pace": "会不会前留半拍，问题结束收住",
+        "emphasis": [
+          "不专业"
+        ],
+        "pauses": [
+          {
+            "after": "专业词，",
+            "seconds": 0.3
+          }
+        ],
+        "face": "轻抬眉，不瞪眼",
+        "gesture": "单手摊开一次"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "近景",
+        "action": "沿用上段近景"
+      },
+      "visual": {
+        "description": "只保留问句字幕，让观众思考",
+        "asset_ids": []
+      },
+      "edits": [],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S05",
+      "start_s": 25,
+      "end_s": 33,
+      "speech": "可以讲。先让他看到一个具体例子，再告诉他，这叫什么。",
+      "purpose": "回答疑虑并给出信息顺序",
+      "techniques": [
+        "自答",
+        "信息排序"
+      ],
+      "performance": {
+        "emotion": "笃定但不训人",
+        "intensity": 3,
+        "pace": "可以讲放慢；先和再清楚分开",
+        "emphasis": [
+          "先"
+        ],
+        "pauses": [
+          {
+            "after": "可以讲。",
+            "seconds": 0.4
+          }
+        ],
+        "face": "点一次头后自然说",
+        "gesture": "用两个手势依次表示先和再"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "中近景",
+        "action": "回答时切回中近景"
+      },
+      "visual": {
+        "description": "先例子、再名称的两步字幕按实际口播依次出现",
+        "asset_ids": []
+      },
+      "edits": [
+        {
+          "id": "E05",
+          "anchor": "具体例子",
+          "occurrence": 1,
+          "offset_s": 3.4,
+          "duration_s": 4.1,
+          "priority": "must",
+          "intent": "回答疑虑并给出信息顺序",
+          "visual": "先出现例子卡，再在同一对象旁补上名称标签；最后停稳供阅读",
+          "sound": "第二步可配轻点击声，低于口播",
+          "voice": "保留原声；背景音乐轻降，确保步骤清楚"
+        }
+      ],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S06",
+      "start_s": 33,
+      "end_s": 42,
+      "speech": "比如讲表达，先说：稿子改了三遍，一开摄像头，还是像念说明书。",
+      "purpose": "提供可以直接照用的生活场景",
+      "techniques": [
+        "举例",
+        "共鸣"
+      ],
+      "performance": {
+        "emotion": "会心、理解",
+        "intensity": 2,
+        "pace": "稿子改了三遍轻带无奈，说明书落慢",
+        "emphasis": [
+          "说明书"
+        ],
+        "pauses": [
+          {
+            "after": "先说：",
+            "seconds": 0.3
+          }
+        ],
+        "face": "画外音，不要求额外表情",
+        "gesture": "可补拍三张稿纸依次叠起的手部动作"
+      },
+      "camera": {
+        "visibility": "仅声音",
+        "framing": "全屏插图或手部补镜",
+        "action": "画面缓慢轻推；无人物小窗"
+      },
+      "visual": {
+        "description": "展示A01；若未生成，采用真人手部备用拍法",
+        "asset_ids": [
+          "A01"
+        ]
+      },
+      "edits": [
+        {
+          "id": "E06",
+          "anchor": "一开摄像头",
+          "occurrence": 1,
+          "offset_s": 4.6,
+          "duration_s": 2.7,
+          "priority": "optional",
+          "intent": "提供可以直接照用的生活场景",
+          "visual": "从三份稿纸轻推至相机，不做文字卡狂闪；说明书落字后停稳",
+          "sound": "无，留出听例子的空间",
+          "voice": "自然语气，不能处理成嘲笑新手的声音"
+        }
+      ],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S07",
+      "start_s": 42,
+      "end_s": 50,
+      "speech": "这时他知道你在说什么，再接你的方法，就容易跟上。",
+      "purpose": "把例子映射回表达方法",
+      "techniques": [
+        "例子回扣",
+        "控制密度"
+      ],
+      "performance": {
+        "emotion": "解释、平静",
+        "intensity": 2,
+        "pace": "再接你的方法略慢，结尾不拖长",
+        "emphasis": [
+          "方法"
+        ],
+        "pauses": [
+          {
+            "after": "什么，",
+            "seconds": 0.45
+          }
+        ],
+        "face": "回到镜头，轻点头",
+        "gesture": "手从外侧收向中间一次"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "中近景",
+        "action": "从插图切回人"
+      },
+      "visual": {
+        "description": "画面恢复简洁，留一句顺序总结即可",
+        "asset_ids": []
+      },
+      "edits": [],
+      "claim_ids": [],
+      "fragment_ids": []
+    },
+    {
+      "id": "S08",
+      "start_s": 50,
+      "end_s": 60,
+      "speech": "现在拿一段自己的稿子，圈出最像说明书的那句。试着换成一个看得见的场景。",
+      "purpose": "给观众一个可马上做的动作",
+      "techniques": [
+        "行动建议",
+        "收束"
+      ],
+      "performance": {
+        "emotion": "鼓励、自然",
+        "intensity": 3,
+        "pace": "圈出、换成稍重，场景两字放慢",
+        "emphasis": [
+          "看得见的场景"
+        ],
+        "pauses": [
+          {
+            "after": "那句。",
+            "seconds": 0.5
+          }
+        ],
+        "face": "轻笑一下，不催促关注",
+        "gesture": "拿笔在纸上圈一句，最后看镜头"
+      },
+      "camera": {
+        "visibility": "露脸",
+        "framing": "中近景",
+        "action": "固定机位，必要时补手部特写"
+      },
+      "visual": {
+        "description": "最后只保留圈出→改成场景两个动作，不追加新概念",
+        "asset_ids": []
+      },
+      "edits": [
+        {
+          "id": "E08",
+          "anchor": "看得见的场景",
+          "occurrence": 1,
+          "offset_s": 7.3,
+          "duration_s": 2.2,
+          "priority": "must",
+          "intent": "给观众一个可马上做的动作",
+          "visual": "结论字幕出现后停稳到结尾，取消无关动画",
+          "sound": "不用高潮音效，音乐自然收尾",
+          "voice": "保持原声，不加长混响"
+        }
+      ],
+      "claim_ids": [],
+      "fragment_ids": []
+    }
+  ],
+  "format": "video-script-director/edit-brief"
+}

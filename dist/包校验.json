@@ -1,0 +1,19 @@
+{
+  "archive": "video-script-director-universal-v1.0.zip",
+  "sha256": "e1d0909e945ee2a70eb19be8dae0d12aa8c6e89cd5f8c0a1750a6520c93cbfdf",
+  "files": [
+    "video-script-director/agents/openai.yaml",
+    "video-script-director/examples/topic/director-plan.json",
+    "video-script-director/references/expression-method.md",
+    "video-script-director/references/plan-format.md",
+    "video-script-director/scripts/director_package.py",
+    "video-script-director/SKILL.md",
+    "video-script-director/使用说明.md",
+    "video-script-director/通用提示词.md"
+  ],
+  "prompt_source_sha256": {
+    "SKILL.md": "bea508f958a6f2df614cff87d5461a8b631016e3bad56a2359a80c02c0104db7",
+    "references/expression-method.md": "3e0a35bf3ae6e0d8c96366c21ffa98a8cc0e7614df24b1476402960f2591a116",
+    "references/plan-format.md": "c77788aafea0b22785a0eecfd6a20c7bff59ba4b0a5e156e27c54bba0466075a"
+  }
+}
